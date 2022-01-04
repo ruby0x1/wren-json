@@ -9,7 +9,7 @@ Simple JSON parse/stringify for the Wren programming language.
 - Not 100% complete or to spec as a json parser or stringifier, nor meant to be
 
 ## API
-The API is all static.
+The API is all static. See test.wren for some basic examples.
 
   ### Json.parse(string)
   > Parses a string and returns a Wren Map or List dependening on the contents.
