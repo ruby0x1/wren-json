@@ -24,12 +24,13 @@ The API is all static.
   > Uses two space for indentation.
 
   ### Json.stringify(value, whitespace)
-  > Same as stringify, but with a custom whitespace.
+  > Returns a string representation of the wren Map or List handed to it but with a custom whitespace.
   > e.g if whitespace was "    " it would be 4 spaces for indentation,
   > or for example "\t" for a single tab.
 
   ### Json.stringify(value, whitespace, callback)
-  > Same as stringify, but with a callback that is handed iterative string results.
+  > Similar to stringify, but does NOT return a value. 
+  > Instead a callback is called which is handed iterative string results.
   > When writing json to a file or buffer, it can be a LOT more efficient to write directly,
   > rather than allocate a huge amount of strings first and then write that instead.
   > The callback is `{|data| write(data) }` (see the stringify implementation).
