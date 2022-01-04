@@ -49,4 +49,4 @@ Grab [wren-cli](https://github.com/wren-lang/wren-cli/releases) and run it:
 - There may be bugs, issues etc.
 - `test.1.json` is made up, generated from https://www.mockaroo.com/
 
-This code was written long ago, and used extensively in [luxe](https://luxeengine.com) for a long while, now ported to this repo as a standalone copy.
+This code was written long ago, and was used extensively in [luxe](https://luxeengine.com) for a long while, now ported to this repo as a standalone copy.
