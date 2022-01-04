@@ -133,6 +133,7 @@ class JsonStringify {
 } //JsonStringify
 
 
+//There's some weird choices here from early on using wren but /shrug :)
 class JsonParser {
 
   root { _root }
