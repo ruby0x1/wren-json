@@ -1,4 +1,24 @@
 
+class Json {
+
+    //default is two spaces
+  static stringify(value) { stringify(value, "  ") }
+
+    //with custom whitespace
+  static stringify(value, whitespace) {
+    var string = ""
+    JsonStringify.stringify(value, whitespace) {|add|
+      string = string + add
+    }
+    return string
+  }
+
+    //with custom callback
+  static stringify(value, whitespace, callback) {
+    JsonStringify.stringify(value, whitespace, callback)
+  }
+
+} //Json
 
 //Handles actual stringification,
 //it calls out to the provided callback to handle "writing"
