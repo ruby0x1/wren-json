@@ -1,0 +1,10 @@
+//comment
+{
+  no_quotes: true, //comments
+  "some_quotes": "also fine", //are
+  32: 24, //ok
+  true: null,
+  false: "ok", //extra commas ok
+  //anywhere
+}
+//here
